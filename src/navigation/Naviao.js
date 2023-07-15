@@ -10,7 +10,7 @@ export default function Naviao({ handleClick }) {
       <div className="sect1">
         <div className="logo">
           <p>
-            <Link to="/">Dev<span className="blu">Hire</span></Link>
+            <Link to="/" className='log'><span className='blak'>Dev</span><span className="blu">Hire</span></Link>
           </p>
         </div>
         <div className="navi">

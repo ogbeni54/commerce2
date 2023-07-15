@@ -85,9 +85,9 @@ export default function Home() {
             <div className="dropdown">
               <select
                 name="currency"
+                className='sel'
                 onChange={handleCurrencyChange}
               >
-                <option value="">Select a currency</option>
                 {currencies.map((currency) => (
                   <option value={currency.symbol} key={currency.symbol}>
                     {currency.name}
