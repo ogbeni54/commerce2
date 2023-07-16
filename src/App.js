@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './homies/Home';
-import Main from './main/Main';
+// import Main from './main/Main';
 import Favourite from './favourite/Favourite';
 
 
